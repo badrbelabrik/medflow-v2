@@ -1,10 +1,4 @@
-<?php // templates/admin/specialites_list.php
-
-require_once __DIR__ . '/../../config/bootstrap.php';
-
-Middleware\AuthMiddleware::checkRoles(['admin']);
-
-?>
+<?php // templates/admin/specialites_list.php ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

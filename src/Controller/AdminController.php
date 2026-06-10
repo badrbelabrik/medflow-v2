@@ -1,11 +1,6 @@
 <?php
-namespace Controller;
-use Exception;
-use MedecinRepository;
-use SpecialiteRepository;
-use StatsRepository;
 
-require_once __DIR__ . '/../../config/database.php';
+require_once __DIR__ . '/../../config/Database1.php';
 require_once __DIR__ . '/../Repository/MedecinRepository.php';
 require_once __DIR__ . '/../Repository/SpecialiteRepository.php';
 require_once __DIR__ . '/../Repository/StatsRepository.php';
